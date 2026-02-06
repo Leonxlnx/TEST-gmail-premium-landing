@@ -1,4 +1,4 @@
-import { Envelope, CaretDown, MagnifyingGlass, GearSix, SquaresFour } from "@phosphor-icons/react";
+import { MagnifyingGlass, GearSix, SquaresFour } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 
 export function Navbar() {
@@ -12,7 +12,6 @@ export function Navbar() {
             {/* Left: Branding */}
             <div className="flex items-center gap-2">
                 <div className="flex-shrink-0 text-google-red p-2 hover:bg-white/5 rounded-full transition-colors cursor-pointer">
-                    <list className="h-6 w-6 hidden" /> {/* Placeholder */}
                     <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M21 5.25L12 12L3 5.25" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-google-red" />
                         <path d="M3 5.25V18.75C3 19.1642 3.33579 19.5 3.75 19.5H20.25C20.6642 19.5 21 19.1642 21 18.75V5.25" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-white/80" />
