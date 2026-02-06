@@ -5,7 +5,7 @@ import { CinematicReveal } from "./components/CinematicReveal";
 function App() {
   return (
     <CinematicReveal>
-      <div className="min-h-screen bg-dark-base text-white font-sans selection:bg-google-blue/30 overflow-x-hidden">
+      <div className="min-h-screen text-white font-sans overflow-x-hidden" style={{ backgroundColor: '#050505' }}>
         <Navbar />
         <main>
           <Hero />

@@ -26,9 +26,9 @@ export function CinematicReveal({ children }: { children: React.ReactNode }) {
                                 ease: [0.22, 1, 0.36, 1],
                                 delay: i * 0.05
                             }}
-                            className="flex-1 bg-dark-base border-r border-white/5 last:border-r-0 relative overflow-hidden"
+                            style={{ backgroundColor: '#050505' }}
+                            className="flex-1 border-r border-white/5 last:border-r-0 relative overflow-hidden"
                         >
-                            {/* Optional: subtle gradient for depth */}
                             <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/50 to-transparent" />
                         </motion.div>
                     ))}
@@ -44,8 +44,8 @@ export function CinematicReveal({ children }: { children: React.ReactNode }) {
                         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                         className="fixed inset-0 z-[101] flex items-center justify-center pointer-events-none"
                     >
-                        <h1 className="text-6xl font-display font-medium text-white tracking-tighter">
-                            Gmail <span className="text-google-blue">Premium</span>
+                        <h1 className="text-6xl font-medium text-white tracking-tighter">
+                            Gmail <span style={{ color: '#4285F4' }}>Premium</span>
                         </h1>
                     </motion.div>
                 )}
